@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatBiodata">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_centerHorizontal="true"
+            android:text="biodata mahasiswa"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Npm"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Nama"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Tanggal Lahir"
+            android:inputType="date"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Jenis Kelamin (L/P)"
+            android:maxLength="1"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Alamat"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/text5"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/ic_arrow"
+            android:text="Kembali" />
+    </RelativeLayout>
+</LinearLayout>
